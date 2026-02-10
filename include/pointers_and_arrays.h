@@ -1,6 +1,3 @@
-#ifndef POINTERS_AND_ARRAYS_H
-#define POINTERS_AND_ARRAYS_H
+#pragma once
 
 void pointersAndArrays();
-
-#endif // POINTERS_AND_ARRAYS_H

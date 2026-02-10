@@ -1,6 +1,3 @@
-#ifndef POINTERS_AS_ARRAYS_H
-#define POINTERS_AS_ARRAYS_H
+#pragma once
 
 void pointersAsArrays();
-
-#endif // POINTERS_AS_ARRAYS_H

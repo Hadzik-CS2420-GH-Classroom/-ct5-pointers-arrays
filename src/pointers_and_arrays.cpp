@@ -1,25 +1,26 @@
 #include "pointers_and_arrays.h"
+
 #include <iostream>
 
 void pointersAndArrays() {
-    std::cout << "=== Pointers and Arrays ===" << std::endl;
+    std::cout << "=== Pointers and Arrays ===" << '\n';
 
     // --- 1. Declaring pointers and arrays ---
-    std::cout << "\n--- 1. Declaring Pointers and Arrays ---" << std::endl;
+    std::cout << "\n--- 1. Declaring Pointers and Arrays ---" << '\n';
 
     int numbers[] = {10, 20, 30, 40, 50};
     int size = 5;
 
     // TODO: Declare a pointer called 'ptr' that points to the first element of 'numbers'
 
-    std::cout << "Array first element: " << numbers[0] << std::endl;
+    std::cout << "Array first element: " << numbers[0] << '\n';
     // TODO: Print the value that 'ptr' points to using the dereference operator (*)
     // Expected output: "Pointer points to: 10"
 
     // --- 2. Taking the address of array elements ---
-    std::cout << "\n--- 2. Address of Array Elements ---" << std::endl;
+    std::cout << "\n--- 2. Address of Array Elements ---" << '\n';
 
-    std::cout << "Address of numbers array: " << numbers << std::endl;
+    std::cout << "Address of numbers array: " << numbers << '\n';
 
     // TODO: Print the address of numbers[0] using the address-of operator (&)
     // Expected output: "Address of numbers[0]: <some address>"
@@ -32,7 +33,7 @@ void pointersAndArrays() {
     // Expected output: "Bytes between elements: 4"
 
     // --- 3. Dereferencing pointers ---
-    std::cout << "\n--- 3. Dereferencing Pointers ---" << std::endl;
+    std::cout << "\n--- 3. Dereferencing Pointers ---" << '\n';
 
     int value = 42;
 
@@ -43,16 +44,16 @@ void pointersAndArrays() {
 
     // TODO: Change 'value' through the pointer by assigning 99 to *pValue
 
-    std::cout << "After modification through pointer:" << std::endl;
+    std::cout << "After modification through pointer:" << '\n';
     // TODO: Print 'value' directly to show it changed
     // Expected output: "value is now: 99"
 
     // --- 4. Pointer arithmetic ---
-    std::cout << "\n--- 4. Pointer Arithmetic ---" << std::endl;
+    std::cout << "\n--- 4. Pointer Arithmetic ---" << '\n';
 
     int* start = numbers;
 
-    std::cout << "start points to: " << *start << std::endl;
+    std::cout << "start points to: " << *start << '\n';
 
     // TODO: Use pointer arithmetic (start + 1) to print the second element
     // Expected output: "start + 1 points to: 20"
@@ -69,5 +70,5 @@ void pointersAndArrays() {
 
     // your loop here
 
-    std::cout << std::endl;
+    std::cout << '\n';
 }

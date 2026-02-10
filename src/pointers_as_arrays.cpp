@@ -16,26 +16,22 @@ void pointersAsArrays() {
 
     std::cout << "Array access:   data[0] = " << data[0] << '\n';
 
-    // TODO: Print ptr[0] to show that a pointer can use [] just like an array
-    // Expected output: "Pointer access: ptr[0] = 100"
+    // SOLUTION: Print ptr[0] to show that a pointer can use [] just like an array
+    std::cout << "Pointer access: ptr[0] = " << ptr[0] << '\n';
 
-    // TODO: Print ptr[2] to access the third element through the pointer
-    // Expected output: "Pointer access: ptr[2] = 300"
+    // SOLUTION: Print ptr[2] to access the third element through the pointer
+    std::cout << "Pointer access: ptr[2] = " << ptr[2] << '\n';
 
-    // TODO: Print ptr[4] to access the last element through the pointer
-    // Expected output: "Pointer access: ptr[4] = 500"
+    // SOLUTION: Print ptr[4] to access the last element through the pointer
+    std::cout << "Pointer access: ptr[4] = " << ptr[4] << '\n';
 
     // --- 2. Iterating using pointer with array syntax ---
     std::cout << "\n--- 2. Looping with Pointer Using [] Syntax ---" << '\n';
 
-    // TODO: Write a for loop that uses ptr[i] to print all elements
-    //       Use 'size' as the loop bound
-    // Expected output:
-    //   ptr[0] = 100
-    //   ptr[1] = 200
-    //   ptr[2] = 300
-    //   ptr[3] = 400
-    //   ptr[4] = 500
+    // SOLUTION: Write a for loop that uses ptr[i] to print all elements
+    for (int i = 0; i < size; ++i) {
+        std::cout << "  ptr[" << i << "] = " << ptr[i] << '\n';
+    }
 
     // Bonus discussion: Why does this work?
     // ptr[i] is equivalent to *(ptr + i)

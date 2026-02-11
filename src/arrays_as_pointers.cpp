@@ -48,6 +48,7 @@ void arraysAsPointers() {
     //   way to know how many elements the pointer points to.
 
     // --- 2. Using pointer arithmetic directly on an array name ---
+    // ? SEE DIAGRAM: images/array_in_memory.png — shows pointer arithmetic on array elements
     std::cout << "\n--- 2. Pointer Arithmetic on Array Name ---" << '\n';
 
     std::cout << "grades itself points to address: " << grades << '\n';

@@ -16,6 +16,7 @@ void pointersAsArrays() {
     //   to its first element. This is identical to: int* ptr = &data[0];
 
     // --- 1. Using bracket [] indexing on a pointer ---
+    // ? SEE DIAGRAM: images/array_in_memory.png — shows how ptr[i] maps to memory
     std::cout << "\n--- 1. Bracket Indexing on a Pointer ---" << '\n';
 
     std::cout << "Array access:   data[0] = " << data[0] << '\n';

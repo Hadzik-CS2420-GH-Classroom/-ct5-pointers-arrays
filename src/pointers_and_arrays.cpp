@@ -6,6 +6,7 @@ void pointersAndArrays() {
     std::cout << "=== Pointers and Arrays ===" << '\n';
 
     // --- 1. Declaring pointers and arrays ---
+    // ? SEE DIAGRAM: images/array_in_memory.png — shows how the array is laid out in memory
     std::cout << "\n--- 1. Declaring Pointers and Arrays ---" << '\n';
 
     int numbers[] = {10, 20, 30, 40, 50};
@@ -70,6 +71,7 @@ void pointersAndArrays() {
     //   sizeof(int) = 4 bytes after &numbers[0].
 
     // --- 3. Dereferencing pointers ---
+    // ? SEE DIAGRAM: images/pointer_address_value.png — shows *, &, addresses, and values
     std::cout << "\n--- 3. Dereferencing Pointers ---" << '\n';
 
     int value = 42;
@@ -99,6 +101,7 @@ void pointersAndArrays() {
     std::cout << "value is now: " << value << '\n';
 
     // --- 4. Pointer arithmetic ---
+    // ? SEE DIAGRAM: images/array_in_memory.png — shows pointer arithmetic on the array
     std::cout << "\n--- 4. Pointer Arithmetic ---" << '\n';
 
     int* start = numbers;

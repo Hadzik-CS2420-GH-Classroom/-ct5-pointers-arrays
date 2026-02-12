@@ -8,6 +8,7 @@ void pointersAsArrays() {
     int data[] = {100, 200, 300, 400, 500};
     int size = 5;
 
+    // ? SEE DIAGRAM: images/pointer_as_array.png — shows data and ptr pointing to the same memory
     // A pointer to the first element of data
     int* ptr = data;
     //
@@ -25,7 +26,7 @@ void pointersAsArrays() {
     std::cout << "Pointer access: ptr[0] = " << ptr[0] << '\n';
     //
     // ! DISCUSSION: How can a pointer use [] like an array?
-    //   The [] operator is defined for pointers: ptr[i] is syntactic sugar
+    //   The [] operator is defined for pointers: ptr[i] is just a shorthand
     //   for *(ptr + i). The compiler rewrites it to pointer arithmetic.
     //   This is why arrays and pointers are so interchangeable in C/C++.
 

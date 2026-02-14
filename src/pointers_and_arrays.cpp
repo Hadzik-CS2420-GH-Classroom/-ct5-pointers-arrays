@@ -143,6 +143,7 @@ void pointersAndArrays() {
     //   not before the first one. The order is: init → check → body → update.
     //   So p starts at numbers[0], prints it, THEN advances to numbers[1].
     //
+    // ? SEE DIAGRAM: images/pre_vs_post_increment.png — shows ++p vs p++ step by step
     // ! DISCUSSION: Why ++p and not p++?
     //   Both increment p by one element, and both produce the same loop output.
     //   The difference:
